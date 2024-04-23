@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Smart Journalism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h6 style="text-align: center">
+      <span id="date-time" style="margin: 5px 50px; font-style: italic"></span>
+    </h6>
+    <script>
+      setInterval(() => {
+        var dt = new Date();
+        document.getElementById("date-time").innerHTML = dt;
+      }, 1000);
+    </script>
+
+    <div id="root"></div>
+
+    
+    </div>
+  </body>
+</html>
